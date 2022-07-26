@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		013DBE88288078B4001E0CC8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013DBE87288078B4001E0CC8 /* main.swift */; };
+		013DBE8A28807E7A001E0CC8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 013DBE8928807E7A001E0CC8 /* Info.plist */; };
 		019FDA4128805B4400E34F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019FDA4028805B4400E34F43 /* AppDelegate.swift */; };
 		019FDA4328805B4400E34F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019FDA4228805B4400E34F43 /* ViewController.swift */; };
 		019FDA4528805B4500E34F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019FDA4428805B4500E34F43 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		013DBE87288078B4001E0CC8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		013DBE8928807E7A001E0CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		019FDA3D28805B4400E34F43 /* MacAppWithHelperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAppWithHelperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		019FDA4028805B4400E34F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		019FDA4228805B4400E34F43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				019FDA4428805B4500E34F43 /* Assets.xcassets */,
 				019FDA4928805B4500E34F43 /* MacAppWithHelperApp.entitlements */,
 				013DBE87288078B4001E0CC8 /* main.swift */,
+				013DBE8928807E7A001E0CC8 /* Info.plist */,
 			);
 			path = MacAppWithHelperApp;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013DBE8A28807E7A001E0CC8 /* Info.plist in Resources */,
 				019FDA4528805B4500E34F43 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +268,7 @@
 				DEVELOPMENT_TEAM = KCL29RH4A8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacAppWithHelperApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,6 +295,7 @@
 				DEVELOPMENT_TEAM = KCL29RH4A8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacAppWithHelperApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (

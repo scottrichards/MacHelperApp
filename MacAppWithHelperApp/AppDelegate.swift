@@ -28,8 +28,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // 3
         if let button = statusItem.button {
             button.image = NSImage(systemSymbolName: "checkmark.circle", accessibilityDescription: "1")
+            button.target = self
+            button.action = #selector(AppDelegate.showHelperApp)
         }
     }
+    
+    
+    @objc func showHelperApp() {
+        print("Show Helper App")
+    }
+    
     
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
