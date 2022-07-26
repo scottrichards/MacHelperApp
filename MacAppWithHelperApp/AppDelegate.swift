@@ -44,6 +44,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     
+    
+    
     @objc func showHelperApp() {
         print("Openeing Helper App Window")
         let storyboard = NSStoryboard(name: "Main", bundle: nil)
@@ -53,14 +55,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 
                 // 2
                 if let helperAppVC = helperAppWindow.contentViewController as? HelperAppVC {
-                    // 3
-                    let application = NSApplication.shared
-                    application.runModal(for: helperAppWindow)
-                    // 4
-                    helperAppWindow.close()
+                    helperAppWindowController.showWindow(self)
+                    //                    // 3
+//                    let application = NSApplication.shared
+//                    application.runModal(for: helperAppWindow)
+//                    // 4
+//                    helperAppWindow.close()
                 }
-                
-                
             }
         }
     }
