@@ -28,11 +28,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // 2
          
         // Create the popover
-       let popover = NSPopover()
-       popover.contentSize = NSSize(width: 400, height: 500)
-       popover.behavior = .transient
+//       let popover = NSPopover()
+//       popover.contentSize = NSSize(width: 400, height: 500)
+//       popover.behavior = .transient
 //       popover.contentViewController = NSHostingController(rootView: contentView)
-       self.popover = popover
+//       self.popover = popover
         
         self.statusBarItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         // 3
@@ -47,7 +47,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     
     @objc func showHelperApp() {
-        print("Openeing Helper App Window")
+        print("Opening Helper App Window")
         let storyboard = NSStoryboard(name: "Main", bundle: nil)
         if let helperAppWindowController = storyboard.instantiateController(withIdentifier: "HelperAppWindowController") as? NSWindowController
         {

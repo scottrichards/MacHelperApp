@@ -11,6 +11,7 @@
 		013DBE8A28807E7A001E0CC8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 013DBE8928807E7A001E0CC8 /* Info.plist */; };
 		015C1133289008F900EDB52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015C1132289008F900EDB52B /* Main.storyboard */; };
 		015C113528900EDB00EDB52B /* HelperAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C113428900EDB00EDB52B /* HelperAppVC.swift */; };
+		016C529F28902C4900E4D165 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016C529E28902C4900E4D165 /* SettingsView.swift */; };
 		019FDA4128805B4400E34F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019FDA4028805B4400E34F43 /* AppDelegate.swift */; };
 		019FDA4328805B4400E34F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019FDA4228805B4400E34F43 /* ViewController.swift */; };
 		019FDA4528805B4500E34F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019FDA4428805B4500E34F43 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		013DBE8928807E7A001E0CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		015C1132289008F900EDB52B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		015C113428900EDB00EDB52B /* HelperAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperAppVC.swift; sourceTree = "<group>"; };
+		016C529E28902C4900E4D165 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		019FDA3D28805B4400E34F43 /* MacAppWithHelperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAppWithHelperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		019FDA4028805B4400E34F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		019FDA4228805B4400E34F43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				013DBE8928807E7A001E0CC8 /* Info.plist */,
 				015C1132289008F900EDB52B /* Main.storyboard */,
 				015C113428900EDB00EDB52B /* HelperAppVC.swift */,
+				016C529E28902C4900E4D165 /* SettingsView.swift */,
 			);
 			path = MacAppWithHelperApp;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016C529F28902C4900E4D165 /* SettingsView.swift in Sources */,
 				019FDA4328805B4400E34F43 /* ViewController.swift in Sources */,
 				019FDA4128805B4400E34F43 /* AppDelegate.swift in Sources */,
 				015C113528900EDB00EDB52B /* HelperAppVC.swift in Sources */,
